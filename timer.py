@@ -4,12 +4,12 @@
 # Created:
 #   6/10/2020, 2:13:40 PM
 # Last edited:
-#   6/10/2020, 10:52:23 PM
+#   6/11/2020, 4:46:59 PM
 # Auto updated?
 #   Yes
 #
 # Description:
-#   This file implements a neat little timer. Will support multiple stules
+#   This file implements a neat little timer. Will support multiple styles
 #   in the future, hopefully even a cool clock or something, but for now it
 #   just counts down like a digital clock. Tries to minimize CPU usage by
 #   avoiding explicit waits 'n' stuff.
@@ -22,7 +22,7 @@ import time
 
 
 def main(total_secs):
-    print("\n*** TIMER v1.0.0 ***\n")
+    print("\n*** TIMER v1.2.0 ***\n")
 
     print("Time to go:")
     while total_secs > 0:
